@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="alarm.png" alt="alarm">
+        <div class="time">15:54:00</div>
+        <div class="content">
+            <div class="column">
+                <select>
+                    <option value="Hour" selected hidden>Часы</option>
+                </select>
+                :
+                <select>
+                    <option value="Minutes" selected hidden>Минуты</option>
+                </select>
+            </div>
+            <button class="btn">Установить будильник</button>
+            <audio class="audio">
+                <source src="alarm.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
